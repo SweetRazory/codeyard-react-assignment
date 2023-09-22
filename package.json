@@ -1,0 +1,42 @@
+{
+  "name": "codeyard-react-assignment",
+  "private": true,
+  "author": "Vigh Milan (sweetrazory@icloud.com)",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite build && vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.9.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "path": "^0.12.7",
+    "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-router": "^6.16.0",
+    "react-router-dom": "^6.16.0",
+    "redux": "^4.2.1",
+    "sass": "^1.67.0",
+    "vite-plugin-singlefile": "^0.13.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

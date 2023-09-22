@@ -1,0 +1,45 @@
+{
+  "general": {
+    "signup": "Sign up",
+    "login": "Log in",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "trademark": "© 2015 Acme, Inc."
+  },
+  "signup": {
+    "title": "Welcome to Acme.",
+    "subtitle": "Create your account by filling the form below.",
+    "error": {
+      "email": "User with this e-mail doesn't exist",
+      "password": "Password is incorrect",
+      "emptyEmail": "Please type in your email.",
+      "emptyPassword": "Please type in your password",
+      "user": "User with these credentials doesn't exist"
+    },
+    "email": {
+      "title": "Email",
+      "placeholder": "",
+      "error": "User with this e-mail doesn't exist"
+    },
+    "password": {
+      "title": "Password",
+      "placeholder": "",
+      "error": "Password is incorrect"
+    }
+  },
+  "login": {
+    "title": "Do you already have an account?",
+    "subtitle": "That's awesome! You can log in by clicking on the button below. To skip this next time, you can ask us to remember your login credentials."
+  },
+  "terms": {
+    "title": "Terms and conditions",
+    "content": "Terms and conditions would be here for example."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "content": "Something about privacy and data handling would be here."
+  },
+  "notification": {
+    "login": "Successful login, welcome back {name}"
+  }
+}

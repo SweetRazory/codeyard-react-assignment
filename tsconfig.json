@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "./dist/",
+    "preserveConstEnums": true,
+    "allowUmdGlobalAccess": true,
+    "removeComments": true,
+    "target": "ES5",
+    "lib": ["es6", "dom"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "pages/*": ["./pages/*"],
+      "components/*": ["./components/*"],
+      "assets/*": ["./assets/*"],
+      "images/*": ["./images/*"],
+      "store/*": ["./store/*"],
+      "styles/*": ["./styles/*"],
+      "types/*": ["./types/*"],
+      "utils/*": ["./utils/*"],
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}

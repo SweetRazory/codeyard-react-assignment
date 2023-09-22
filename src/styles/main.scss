@@ -1,0 +1,89 @@
+@import "settings";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+    background-color: var(--background-color);
+
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 0;
+    color: $darkgray;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    margin: 0;
+    color: $white;
+}
+
+input,
+h3 {
+    font-family: -apple-system, system-ui;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: normal;
+    margin-top: 0;
+    color: $darkgray;
+}
+
+h4 {
+    font-family: -apple-system, system-ui;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-top: 0;
+    color: $white;
+}
+
+h5 {
+    font-family: -apple-system, system-ui;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    margin-top: 0;
+    color: $lightgray;
+}
+
+h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 0;
+    color: $lightgray;
+}
+
+p {
+    font-family: -apple-system, system-ui;
+    font-size: 12px;
+    color: $lightgray;
+    font-weight: normal;
+    line-height: 15px;
+    margin: 0;
+}
+
+a {
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 17px;
+    font-size: 12px;
+    color: $lightgray;
+}

@@ -1,0 +1,109 @@
+@import "styles/settings.scss";
+
+.input-field {
+  margin: 8px 0px 6px 0px;
+
+  .password-dot {
+    user-select: none;
+    color: $lightgray;
+    top: -10px;
+    line-height: 6px;
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 0px;
+    left: 1px;
+
+    &.small {
+      &.active {
+        color: $actionable;
+      }
+    }
+
+    &.medium {
+      &.active {
+        color: $warning;
+      }
+
+      line-height: 1px;
+      font-size: 32px;
+    }
+
+    &.large {
+      &.active {
+        color: $error;
+      }
+
+      font-size: 42px;
+    }
+  }
+
+  &.error {
+    .input-label {
+      color: $error;
+    }
+
+    hr {
+      background-color: $error;
+    }
+
+    input {
+      color: $error;
+    }
+  }
+
+  &:focus-within {
+    .input-label {
+      color: $actionable;
+    }
+
+    hr {
+      background-color: $actionable;
+    }
+  }
+
+  hr {
+    transition: .125s ease-in-out;
+    height: 1px;
+    margin-top: 10px;
+    border: none;
+    background-color: $lightgray;
+  }
+
+  .input-label {
+    transition: .125s ease-in-out;
+    font-family: -apple-system, system-ui;
+    font-size: 12px;
+    line-height: 15px;
+    color: $lightgray;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    padding: 0;
+
+    &:focus {
+      outline: none;
+      caret-color: $actionable;
+    }
+  }
+
+  .password-visibility {
+    height: 12px;
+    width: 20px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .visibility-icon {
+      user-select: none;
+      overflow: hidden;
+    }
+  }
+
+  .error-message {
+    color: $error;
+    margin-bottom: 12px;
+  }
+}

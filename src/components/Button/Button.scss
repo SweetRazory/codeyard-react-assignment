@@ -1,0 +1,30 @@
+@import "styles/settings.scss";
+
+.custom-button {
+  user-select: none;
+  cursor: pointer;
+  transition: .5s cubic-bezier(0, 1, 1, 1);
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 6px 36px;
+  color: $white;
+  line-height: 30px;
+  border-radius: 4px;
+  width: unset;
+  font-size: 14px;
+
+  &.loading {
+    width: 48px;
+    padding: 6px;
+    cursor: not-allowed;
+  }
+
+  &.primary {
+    background-color: $actionable;
+  }
+
+  &.secondary {
+    background-color: transparent;
+    border: 2px solid $white;
+  }
+}
